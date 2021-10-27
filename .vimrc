@@ -23,6 +23,7 @@ Plug 'lepture/vim-jinja'
 Plug 'pangloss/vim-javascript'
 Plug 'alvan/vim-closetag'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 filetype plugin indent on
