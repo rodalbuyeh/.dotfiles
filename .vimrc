@@ -194,6 +194,9 @@ imap <C-v> <ESC>"+pa
 " hotfix for ctags bug, on unix run 'brew install ctags-exuberant'
 let g:Tlist_Ctags_Cmd='/usr/local/Cellar/ctags/5.8_1/bin/ctags'
 
+" jedi vim virtual env
+let g:jedi#environment_path = "env"
+
 " disable autoindent when pasting text
 " source: https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
 let &t_SI .= "\<Esc>[?2004h"
