@@ -195,7 +195,9 @@ imap <C-v> <ESC>"+pa
 let g:Tlist_Ctags_Cmd='/usr/local/Cellar/ctags/5.8_1/bin/ctags'
 
 " jedi vim virtual env
-let g:jedi#environment_path = "env"
+set exrc
+set secure
+let g:jedi#environment_path = $VIRTUAL_ENV
 
 " disable autoindent when pasting text
 " source: https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
